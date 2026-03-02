@@ -29,6 +29,16 @@ app.js – Einstiegspunkt
 
 --
 
+REST-Beispiele
+ Buch-API:
+- GET /books – alle Bücher abrufen  
+- GET /books/:id – Buch nach ID abrufen  
+- POST /books – neues Buch erstellen  
+- PUT /books/:id – Buch aktualisieren  
+- DELETE /books/:id – Buch löschen  
 
 
-Ich habe die Unterschiede zwischen Monolith und Microservices noch nicht ganz verstanden 
+
+
+Monolith: Eine einzelne, zusammenhängende Anwendung. Einfach zu entwickeln, aber schwer zu skalieren.  
+Microservices: Die Anwendung ist in viele kleine, unabhängige Dienste aufgeteilt. Modular und skalierbar, aber komplexer wie amazon 
